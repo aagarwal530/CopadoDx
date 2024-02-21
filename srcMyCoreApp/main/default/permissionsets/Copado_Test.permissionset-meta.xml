@@ -16,6 +16,10 @@
         <apexClass>StringManipulatorTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>copado__ACCommitToRunQG</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Copado Test</label>
     <license>Salesforce</license>
