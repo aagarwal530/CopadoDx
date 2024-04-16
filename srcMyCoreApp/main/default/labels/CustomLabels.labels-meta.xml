@@ -2,10 +2,12 @@
 <CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
     <labels>
         <fullName>New_Custom_Label_for_Test</fullName>
+        <categories>New Test</categories>
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>New Custom Label for Test</shortDescription>
         <value>Test1
-Test2</value>
+Test2
+Test3</value>
     </labels>
 </CustomLabels>
