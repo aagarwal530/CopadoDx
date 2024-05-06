@@ -50,6 +50,16 @@
                 <default>false</default>
                 <label>Test Fail</label>
             </value>
+            <value>
+                <fullName>Ford Insure Common</fullName>
+                <default>false</default>
+                <label>Ford Insure Common</label>
+            </value>
+            <value>
+                <fullName>Ford Presure Common</fullName>
+                <default>false</default>
+                <label>Ford Presure Common</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>
