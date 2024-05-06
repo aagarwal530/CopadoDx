@@ -3,4 +3,23 @@
     <fullName>Contact_Test_Record</fullName>
     <active>true</active>
     <label>Contact Test Record</label>
+    <picklistValues>
+        <picklist>Fort_Test__c</picklist>
+        <values>
+            <fullName>Connected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disconnected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ford Insure Common</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ford Presure Common</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
 </RecordType>
