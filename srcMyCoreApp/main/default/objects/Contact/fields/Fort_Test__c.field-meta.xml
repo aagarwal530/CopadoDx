@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fort_Test__c</fullName>
+    <externalId>false</externalId>
+    <label>Fort Test</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pro-Insure</fullName>
+                <default>false</default>
+                <label>Pro-Insure</label>
+            </value>
+            <value>
+                <fullName>Insure</fullName>
+                <default>false</default>
+                <label>Insure</label>
+            </value>
+            <value>
+                <fullName>Selected</fullName>
+                <default>false</default>
+                <label>Selected</label>
+            </value>
+            <value>
+                <fullName>Not Selected</fullName>
+                <default>false</default>
+                <label>Not Selected</label>
+            </value>
+            <value>
+                <fullName>Connected</fullName>
+                <default>false</default>
+                <label>Connected</label>
+            </value>
+            <value>
+                <fullName>Disconnected</fullName>
+                <default>false</default>
+                <label>Disconnected</label>
+            </value>
+            <value>
+                <fullName>Test Pass</fullName>
+                <default>false</default>
+                <label>Test Pass</label>
+            </value>
+            <value>
+                <fullName>Test Fail</fullName>
+                <default>false</default>
+                <label>Test Fail</label>
+            </value>
+            <value>
+                <fullName>Ford Insure Common</fullName>
+                <default>false</default>
+                <label>Ford Insure Common</label>
+            </value>
+            <value>
+                <fullName>Ford Presure Common</fullName>
+                <default>false</default>
+                <label>Ford Presure Common</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
