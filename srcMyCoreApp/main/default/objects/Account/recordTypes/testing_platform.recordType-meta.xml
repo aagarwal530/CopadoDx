@@ -3,15 +3,4 @@
     <fullName>testing_platform</fullName>
     <active>true</active>
     <label>testing platform</label>
-    <picklistValues>
-        <picklist>Account_status__c</picklist>
-        <values>
-            <fullName>No</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Yes</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
 </RecordType>
