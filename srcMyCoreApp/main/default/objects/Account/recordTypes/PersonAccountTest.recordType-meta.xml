@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>testing_platform</fullName>
+    <fullName>PersonAccountTest</fullName>
     <active>true</active>
-    <label>testing platform</label>
+    <label>PersonAccountTest</label>
     <picklistValues>
         <picklist>AccountSource</picklist>
         <values>
