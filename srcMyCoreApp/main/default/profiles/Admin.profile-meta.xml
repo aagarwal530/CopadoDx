@@ -9,8 +9,33 @@
         <apexClass>DummyClassTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>UpdateAccountIndustryJob</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>UpdateAccountIndustryJobTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <custom>false</custom>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Examination__c.Paper__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <layoutAssignments>
+        <layout>Examination__c-Examination Layout</layout>
+    </layoutAssignments>
     <loginHours n1:nil="true" />
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Examination__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
@@ -282,6 +307,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>FreezeUsers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>GiveRecognitionBadge</name>
     </userPermissions>
     <userPermissions>
@@ -362,6 +391,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>ManageCustomDomains</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ManageCustomPermissions</name>
     </userPermissions>
     <userPermissions>
@@ -379,6 +412,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageDataIntegrations</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageDataMaskPolicies</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -535,6 +572,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ModifyMetadata</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>MonitorLoginHistory</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
