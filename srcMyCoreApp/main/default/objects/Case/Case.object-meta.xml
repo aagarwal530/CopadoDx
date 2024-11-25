@@ -154,11 +154,6 @@
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
-     <actionOverrides>
-        <actionName>NewCase</actionName>
-        <formFactor>Small</formFactor>
-        <type>Default</type>
-    </actionOverrides>
     <actionOverrides>
         <actionName>SaveEdit</actionName>
         <type>Default</type>
@@ -204,9 +199,30 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
-    <sharingModel>ReadWriteTransfer</sharingModel>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
-    <enableFeeds>true</enableFeeds>
-    <externalSharingModel>Private</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>CASES.CASE_NUMBER</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CASES.SUBJECT</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CASES.CREATED_DATE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CASES.PRIORITY</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>CASES.CASE_NUMBER</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CASES.SUBJECT</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CASES.STATUS</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CASES.CASE_NUMBER</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CASES.SUBJECT</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CASES.STATUS</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>CASES.CASE_NUMBER</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CASES.SUBJECT</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CASES.STATUS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CASES.CREATED_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTACT.FIRST_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTACT.LAST_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTACT.LAST_NAME</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>ReadWriteTransfer</sharingModel>
 </CustomObject>
